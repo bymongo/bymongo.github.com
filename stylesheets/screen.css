@@ -1,5 +1,6 @@
 body {
-  background: #DCDCD9 url(../images/whitey.png) repeat;
+  background: #DCDCD9 url(../images/noisy_grid.png) repeat;
+/*  background: #DCDCD9 url(../images/absurdidad.png) repeat;*/
   font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
   font-size: .8em
 }
@@ -59,12 +60,21 @@ header h1 a {
   font-weight: bold
 }
 
+#photos{
+  height:95px;
+  background:url(../images/photos.png);
+}
+
+#end{
+  height: 200px;
+  background:#191919;
+}
+
 footer {
   color: #919191;
   text-align: center;
   font-size: .8em;
   text-shadow: 0 1px 0 #fff;
   padding-bottom: 90px;
-  background: url(/images/footer-logo.png) 50% 100% no-repeat;
   margin-bottom: 40px
 }
